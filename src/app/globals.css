@@ -260,5 +260,18 @@
 }
 
 .float-up-down {
-  animation: floatUpDown 7s ease-in-out infinite;
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+ .animate-spin-slow {
+    animation: spin 12s linear infinite;
+  }
+
+  .gradient-border-circle {
+  border-width: 10px;
+  border-color: transparent;
+  background-image: conic-gradient(from 0deg, #facc15, #c2410c); /* yellow to orange */
+  background-clip: border-box;
+  border-radius: 9999px;
+  animation: spin 8s linear infinite;
 }
