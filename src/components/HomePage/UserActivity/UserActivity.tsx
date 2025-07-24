@@ -90,7 +90,7 @@ const UserActivity = () => {
               <span className="text-center">Profit</span>
               <span className="text-center">Time</span>
               <span className="text-center">Program</span>
-              <span className="text-center">User Profile</span>
+              <span className="text-center text-nowrap">User Profile</span>
             </div>
 
             {/* Table Rows */}
