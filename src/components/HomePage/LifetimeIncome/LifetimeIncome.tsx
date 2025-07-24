@@ -6,7 +6,11 @@ import Image from "next/image";
 const LifetimeIncome = () => {
   return (
     <Container>
-      <div className="rounded-2xl bg-neutral-10 relative p-3 xl:p-6 flex flex-col-reverse xl:flex-row gap-0 xl:gap-10 items-center justify-between mt-6 xl:mt-[110px]">
+         <div className="h-6 w-full bg-black">
+      <div className="rounded-2xl bg-neutral-10 relative p-3 xl:p-6 flex flex-col-reverse xl:flex-row gap-0 xl:gap-10 items-center justify-between  xl:mt-[110px]">
+     
+
+        </div>
         <Image
           src={IMAGES.linnerBg2}
           alt=""
