@@ -43,7 +43,7 @@ import rocket from "../assets/images/rocket.svg";
 import aboutUsCoin from "../assets/images/about-us-coin.png";
 import tutorialcardBg from "../assets/images/tutorial-card-bg.png";
 import user from "../assets/images/user.svg";
-import needHelp from "../assets/images/need-help.png";
+import needHelp from "../assets/images/need-help.svg";
 import membersTransfered from "../assets/images/mebers-transfered.svg";
 import membersReceived from "../assets/images/members-received.svg";
 import members from "../assets/images/members.svg";

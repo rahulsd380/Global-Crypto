@@ -63,7 +63,6 @@ const FutureRoadMap = () => {
       { sl: "13", text: "METAVERSE INTEGRATION" },
       { sl: "14", text: "DECENTRALIZED FINANCE (DeFi)" },
     ],
- 
   ];
 
   return (
@@ -115,7 +114,7 @@ const FutureRoadMap = () => {
                   <div
                     key={index}
                     className={`grid grid-cols-2 gap-5 xl:hidden absolute left-5`}
-                    style={{ top: `${index * 146 + 5}px` }}
+                    style={{ top: `${index * 146 + 20}px` }}
                   >
                     {row.map((item) => (
                       <RoadMapCard key={item.sl} item={item} />

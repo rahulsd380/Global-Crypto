@@ -24,11 +24,11 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="bg-neutral-10 pt-[56px] font-Inter mt-7 xl:mt-[100px]">
+    <div className="bg-neutral-10 pt-[22px] xl:pt-[56px] font-Inter mt-7 xl:mt-[100px]">
       <Container>
         <div className="flex flex-col items-center justify-center mb-[29px] md:mb-[22px]">
           <Image src={IMAGES.logo} alt="" className="w-[88px] md:w-[200px]" />
-          <div className="text-white text-lg flex items-center gap-1 mt-3 md:mt-6">
+          <div className="text-white text-sm xl:text-lg flex items-center gap-1 mt-3 md:mt-6">
             <Link href={"/terms-and-conditions"} className="hover:underline">
               Terms & Conditions
             </Link>
@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="flex items-center gap-3 mt-5 md:mt-7">
             {socialLinks?.map((item, index) => (
               <a key={index} href={item?.href}>
-                <Image src={item?.icon} alt="" />
+                <Image src={item?.icon} alt="" className="size-[37px]" />
               </a>
             ))}
           </div>

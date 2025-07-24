@@ -1,4 +1,8 @@
-<svg width="329" height="737" viewBox="0 0 329 737" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M329 154H9V291H329V445H10V582H329V737H4V728H320V591H1V436H320V300H0V145H320V9.00049H4V0.000488281H329V154Z" fill="#FF7800" fill-opacity="0.1"/>
-<path d="M5 4.00049H324V149.705H5V295.886H324V441.591H5V587.296H324V733H5" stroke="#FF7800" stroke-linecap="round" stroke-dasharray="5 5"/>
+<svg width="329" height="883" viewBox="0 0 329 883" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M329 154H9V291H329V445H10V582H329V737H4V728H320V591H1V436H320V300H0V145H320V9H4V0H329V154Z" fill="#FF7800" fill-opacity="0.1"/>
+<path d="M5 4H324V149.705H5V295.886H324V441.59H5V587.295H324V733H5" stroke="#FF7800" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="4" y1="878.5" x2="324" y2="878.5" stroke="#24170B" stroke-width="9"/>
+<line x1="5.5" y1="728" x2="5.50001" y2="883" stroke="#24170B" stroke-width="9"/>
+<line x1="5.5" y1="733.5" x2="5.49999" y2="878.5" stroke="#FF7800" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="320.5" y1="878.5" x2="5.5" y2="878.5" stroke="#FF7800" stroke-linecap="round" stroke-dasharray="5 5"/>
 </svg>

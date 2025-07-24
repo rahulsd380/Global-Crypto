@@ -6,7 +6,7 @@ import Image from "next/image";
 const NeedHelp = () => {
   return (
     <Container>
-      <div className="flex flex-col-reverse lg:flex-row gap-0 lg:gap-10  xl:mt-[100px] mt-2">
+      <div className="flex flex-col-reverse lg:flex-row gap-0 lg:gap-10 xl:mt-[100px] mt-[73]">
         <div className="flex flex-col items-center w-full lg:w-[50%]">
           {/* Card 1 */}
           <div className="bg-neutral-10 rounded-2xl relative py-[79px] px-9 xl:px-[45px] h-fit ">
