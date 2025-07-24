@@ -220,3 +220,45 @@
     background-position: 0% 50%;
   }
 }
+
+
+/* wiggleSpin Animation For Home Layout */
+
+@keyframes wiggleSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-wiggleSpin10s {
+  animation: wiggleSpin 10s ease-in-out infinite;
+}
+.animate-wiggleSpin5s {
+  animation: wiggleSpin 3s ease-in-out infinite;
+}
+
+
+/* Animation For Up and Down FLoating */
+@keyframes floatUpDown {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-3px); }
+  50% { transform: translateY(0); }
+  75% { transform: translateY(3px); }
+  100% { transform: translateY(0); }
+}
+
+.float-up-down {
+  animation: floatUpDown 7s ease-in-out infinite;
+}

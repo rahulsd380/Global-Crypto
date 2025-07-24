@@ -26,6 +26,7 @@ const PrimaryButton: React.FC<GradientButtonProps> = ({
   transition-all duration-300
   hover:bg-[linear-gradient(90deg,_#FFE601_0%,_#FF7800_100%)]
   active:bg-[linear-gradient(90deg,_#FFE601_0%,_#FF7800_100%)]
+  overflow-hidden
   `,
   className
 )}
@@ -34,7 +35,7 @@ const PrimaryButton: React.FC<GradientButtonProps> = ({
       <Image
         src={IMAGES.buttonDesign}
         alt=""
-        className="absolute top-0 right-0 h-full pointer-events-none"
+        className="absolute animate-pulse top-0 right-0 h-full pointer-events-none"
       />
 
       <button className="flex flex-row justify-center items-center gap-2 z-10 d">

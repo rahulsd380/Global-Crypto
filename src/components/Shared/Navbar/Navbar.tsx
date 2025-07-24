@@ -7,14 +7,19 @@ import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
+const [isHidden, setIsHidden] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 0);
+      if (window.scrollY > 1600) {
+        setIsHidden(true); // hide after 200px
+      } else {
+        setIsHidden(false); // show again if scrolled up
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -25,7 +30,7 @@ const Navbar = () => {
       )}
     >
       <Container>
-        <div className="flex justify-between items-center py-5">
+        <div className={`flex justify-between items-center py-5 ${isHidden ? "hidden" : "" }`}>
           <Image
             src={IMAGES.logo}
             alt="Logo"

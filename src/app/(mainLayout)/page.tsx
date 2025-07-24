@@ -15,6 +15,11 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <AccountPreviewMode />
+
+
+
+      
+      <div className="bg-black">
       <LifetimeIncome />
       <PlatformOffers />
       <MonthlyTopEarners />
@@ -22,6 +27,7 @@ export default function Home() {
       <UserActivity />
       <FutureRoadMap />
       <NeedHelp />
+      </div>
     </div>
   );
 }

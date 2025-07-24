@@ -28,7 +28,7 @@ const Hero = () => {
           <Image
             src={IMAGES.companyNameLogo}
             alt="Global Crypto Alliance"
-            className="w-[211px] h-[143px] z-10 mt-[30px]"
+            className="w-[211px] h-[143px] z-10 mt-[30px] float-up-down"
           />
 
           <p className="text-xl text-white leading-[26px] font-semibold font-Jost mt-9">
