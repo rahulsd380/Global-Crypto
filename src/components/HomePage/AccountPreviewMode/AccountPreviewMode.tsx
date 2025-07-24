@@ -6,7 +6,7 @@ import React from "react";
 
 const AccountPreviewMode = () => {
   return (
-    <div className="bg-secondary-20 pt-6 xl:mt-[90px] relative">
+    <div className="bg-secondary-20 pt-6 border-b-8 border-black xl:mt-[90px] relative">
       <div className="absolute top-0 left-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"

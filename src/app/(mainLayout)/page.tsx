@@ -19,7 +19,6 @@ export default function Home() {
 
 
       
-      <div className="bg-black">
       <LifetimeIncome />
       <PlatformOffers />
       <MonthlyTopEarners />
@@ -27,7 +26,6 @@ export default function Home() {
       <UserActivity />
       <FutureRoadMap />
       <NeedHelp />
-      </div>
     </div>
   );
 }
