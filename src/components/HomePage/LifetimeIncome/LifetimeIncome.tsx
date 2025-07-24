@@ -90,11 +90,49 @@ const LifetimeIncome = () => {
             you.
           </p>
         </div>
-        <Image
-          src={IMAGES.lifetimeEarning}
-          alt=""
-          className="w-[140px] xl:w-[300px] mx-14 mt-10 xl:mt-0 xl:mx-12"
-        />
+        <div className="relative w-[170px] xl:w-[500px] mt-10 xl:mt-0">
+          <Image
+            src={IMAGES.lifetimeEarning}
+            alt=""
+          />
+          <div className="absolute top-[20px] right-0 left-[22px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="124"
+              height="124"
+              viewBox="0 0 124 124"
+              fill="none"
+            >
+              <g filter="url(#filter0_f_3_4241)">
+                <circle cx="62" cy="62" r="18" fill="#FF7800" />
+              </g>
+              <circle cx="62" cy="62" r="38" fill="white" fill-opacity="0.03" />
+              <defs>
+                <filter
+                  id="filter0_f_3_4241"
+                  x="0"
+                  y="0"
+                  width="124"
+                  height="124"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="22"
+                    result="effect1_foregroundBlur_3_4241"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </div>
       </div>
     </Container>
   );

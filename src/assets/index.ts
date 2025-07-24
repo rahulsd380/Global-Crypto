@@ -32,7 +32,7 @@ import gradientBottomLeft from "../assets/images/gradient-bottom-left.svg";
 import gradientTopRight from "../assets/images/gradient-top-right.svg";
 import linnerBg from "../assets/images/linner-bg.png";
 import linnerBg2 from "../assets/gradient-bg/linner-bg.png";
-import lifetimeEarning from "../assets/images/lifetime-earning.png";
+import lifetimeEarning from "../assets/images/aboutus.gif";
 import primeStarter from "../assets/images/prime-starter.png";
 import personalPartner from "../assets/images/personal-partner.png";
 import limitlessGeneration from "../assets/images/limitless-generation.png";

@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="bg-gradient-future-roadmap backdrop-blur-[24px] flex flex-col-reverse md:flex-row w-full rounded-2xl mt-6 xl:mt-[90px] px-[6px] md:px-17 pb-6 xl:pb-0 h-fit xl:h-[511px]">
           <div className="w-full md:w-[60%] flex flex-col justify-center items-center md:items-baseline">
             <ReusableHeading highlight="About Global Crypto Alliance" />
-            <p className="text-lg font-Inter text-center md:text-start text-white font-medium leading-[1.6] mt-4">
+            <p className="text-sm xl:text-lg font-Inter text-center md:text-start text-white font-medium leading-[1.6] mt-4">
               Global Crypto Alliance is the leading decentralized platform of
               the world, designed to transform the landscape of blockchain
               technology through innovation, transparency, and financial
